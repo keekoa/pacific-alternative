@@ -24,11 +24,48 @@ export default function Home() {
               className={styles.heroLogo}
               alt="logo"
             />
-            <h2>pacific-crane@gmail.com</h2>
+            <h2>pacific-crane@hotmail.com</h2>
           </div>
         </section>
-        <section className={styles.intro}>
-          
+        <section className={styles.content}>
+          <div className={styles.serviceItems}>
+            <div className={styles.serviceItemCard}>
+              <div className={styles.serviceItemImgContainer}>
+
+              </div>
+              <div className={styles.serviceItemInfo}>
+                <h2>Cranes</h2>
+                <p>We offer...</p>
+              </div>
+            </div>
+            <div className={styles.serviceItemCard}>
+              <div className={styles.serviceItemImgContainer}>
+
+              </div>
+              <div className={styles.serviceItemInfo}>
+                <h2>Hoists</h2>
+                <p>We offer...</p>
+              </div>
+            </div>
+            <div className={styles.serviceItemCard}>
+              <div className={styles.serviceItemImgContainer}>
+
+              </div>
+              <div className={styles.serviceItemInfo}>
+                <h2>Individual Products</h2>
+                <p>We offer...</p>
+              </div>
+            </div>
+          </div>
+          <div className={styles.craneContainer}>
+
+          </div>
+          <div className={styles.customers}>
+
+          </div>
+          <div className={styles.safetyFirst}>
+
+          </div>
         </section>
       </main>
     </>

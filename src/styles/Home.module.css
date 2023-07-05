@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 2000px;
 }
 
 .hero {
@@ -23,6 +22,44 @@
   align-items: center;
   gap: 80px;
   font-size: 1.2rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 1200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.serviceItems {
+  display: flex;
+  gap: 50px;
+}
+
+.serviceItemCard {
+  width: 600px;
+  height: 250px;
+  background: #c9c9c9;
+}
+
+.craneContainer {
+  width: 1200px;
+  height: 250px;
+  background: #c9c9c9;
+}
+
+.customers {
+  width: 1200px;
+  height: 50px;
+  background: #c9c9c9;
+}
+
+.safetyFirst {
+  width: 1200px;
+  height: 250px;
+  background: #c9c9c9;
 }
 
 /* Tablet and Smaller Desktop */

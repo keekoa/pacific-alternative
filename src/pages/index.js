@@ -31,7 +31,12 @@ export default function Home() {
           <div className={styles.serviceItems}>
             <div className={styles.serviceItemCard}>
               <div className={styles.serviceItemImgContainer}>
-
+                <Image
+                  src={"/images/cranes/3.jpg"}
+                  fill
+                  className={styles.serviceItemImg}
+                  alt="crane"
+                />
               </div>
               <div className={styles.serviceItemInfo}>
                 <h2>Cranes</h2>
@@ -40,7 +45,12 @@ export default function Home() {
             </div>
             <div className={styles.serviceItemCard}>
               <div className={styles.serviceItemImgContainer}>
-
+                <Image
+                  src={"/images/hoists/1.jpg"}
+                  fill
+                  className={styles.serviceItemImg}
+                  alt="crane"
+                />
               </div>
               <div className={styles.serviceItemInfo}>
                 <h2>Hoists</h2>
@@ -49,7 +59,12 @@ export default function Home() {
             </div>
             <div className={styles.serviceItemCard}>
               <div className={styles.serviceItemImgContainer}>
-
+                <Image
+                  src={"/images/products/1.jpg"}
+                  fill
+                  className={styles.serviceItemImg}
+                  alt="crane"
+                />
               </div>
               <div className={styles.serviceItemInfo}>
                 <h2>Individual Products</h2>
@@ -58,7 +73,12 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.craneContainer}>
-
+            <Image
+                src={"/images/cranes/4.png"}
+                fill
+                className={styles.craneImg}
+                alt="crane"
+            />
           </div>
           <div className={styles.customers}>
 

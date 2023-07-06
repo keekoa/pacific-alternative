@@ -36,18 +36,42 @@
 .serviceItems {
   display: flex;
   gap: 50px;
+  margin-bottom: 10px;
 }
 
 .serviceItemCard {
   width: 600px;
-  height: 250px;
-  background: #c9c9c9;
+  height: 300px;
+  background: #dcebfa;
+  box-shadow: 0 0 5px #c2c1c1;
+}
+
+.serviceItemImgContainer {
+  height: 175px;
+  background-color: bisque;
+  position: relative;
+}
+
+.serviceItemImg {
+  object-fit: cover;
+}
+
+.serviceItemInfo {
+  padding: 20px;
 }
 
 .craneContainer {
+  position: relative;
   width: 1200px;
-  height: 250px;
-  background: #c9c9c9;
+  height: 500px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  background: linear-gradient(90deg, #E5F0FA 0%, transparent 10%, transparent 90%, #E5F0FA 100%);
+}
+
+.craneImg {
+  object-fit: contain;
+  z-index: -1;
 }
 
 .customers {

@@ -1,5 +1,6 @@
 .container {
   transition: all 0.25s ease;
+  z-index: 1;
 }
 
 .sticky {

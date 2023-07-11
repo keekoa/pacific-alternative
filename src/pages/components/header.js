@@ -42,15 +42,17 @@ export default function Header() {
       <nav className={styles.navbar}>
         <ul>
           <li><Link href="/">Home</Link></li>
-          <li><Link href="">Service</Link></li>
-          <li><Link href="">Product</Link></li>
-          <Image
-            src={'/alter-icon.png'}
-            width={isSticky ? 100 : 120}
-            height={0}
-            className={styles.logo}
-            alt="logo"
-          />
+          <li><Link href="">Services</Link></li>
+          <li><Link href="">Products</Link></li>
+          <Link href="/">
+            <Image
+              src={'/alter-icon.png'}
+              width={isSticky ? 100 : 120}
+              height={0}
+              className={styles.logo}
+              alt="logo"
+            />
+          </Link>
           <li><Link href="">Gallery</Link></li>
           <li><Link href="">About</Link></li>
           <li><Link href="/contact">Contact</Link></li>

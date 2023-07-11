@@ -211,8 +211,11 @@ export default function Home() {
                 />
               </div>
               <div className={styles.serviceItemInfo}>
-                <h2>Cranes</h2>
-                <p>We offer...</p>
+                <div>
+                  <h2>Cranes</h2>
+                  <p>We offer variety of crane services including overhead crane, gantry crane, travelling crane.</p>
+                </div>
+                <Link href="" className={styles.detailLink}>See more</Link>
               </div>
             </div>
             <div className={styles.serviceItemCard}>
@@ -225,8 +228,11 @@ export default function Home() {
                 />
               </div>
               <div className={styles.serviceItemInfo}>
-                <h2>Hoists</h2>
-                <p>We offer...</p>
+                <div>
+                  <h2>Hoists</h2>
+                  <p>We offer elevator for elevating goods in warehouse environment.</p>
+                </div>
+                <Link href="" className={styles.detailLink}>See more</Link>
               </div>
             </div>
             <div className={styles.serviceItemCard}>
@@ -239,8 +245,11 @@ export default function Home() {
                 />
               </div>
               <div className={styles.serviceItemInfo}>
-                <h2>Individual Products</h2>
-                <p>We offer...</p>
+                <div>
+                  <h2>Individual Products</h2>
+                  <p>We offer several individual products including electric hoists, wire rope, chain, remote control, and more.</p>
+                </div>
+                <Link href="" className={styles.detailLink}>See more</Link>
               </div>
             </div>
           </div>

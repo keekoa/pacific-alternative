@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.copyright}>
-          <p>Copyright © 2023 Pacific Machinery Sales & Service Co., Ltd. All Rights Reserved.</p>
+          <p>Copyright © 2023 Pacific Machinery Sales & Service Co., Ltd.</p>
       </div>
     </footer>
   )

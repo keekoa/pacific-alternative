@@ -32,34 +32,29 @@ export default function Header() {
     <div className={`${styles.container} ${isSticky ? styles.sticky : ''}`}>
       <header className={styles.header}>
         <div>
-          {isSticky ? <p>(+66) 085 545 9000, 02 898 6616</p> : <p></p>}
+          <p>(+66) 085 545 9000, 02 898 6616</p>
           <div>
-            {isSticky ? <p>pacific-crane@hotmail.com</p> : <p></p>}
+            <p>pacific-crane@hotmail.com</p>
             <Link href="/" locale="th" className={`${styles.language} ${thaiFont.className}`} >ภาษาไทย</Link>
           </div>
         </div>
       </header>
       <nav className={styles.navbar}>
-        <div> 
-          {isSticky ?
-            <Image
-              src={isSticky ? '/alter-icon.png' : '/empty.png'}
-              width={100}
-              height={60}
-              className={styles.logo}
-              alt="logo"
-            />
-            :
-            <h1>PACIFIC MACHINERY</h1>
-          }
-          <ul>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="">Service</Link></li>
-            <li><Link href="">Product</Link></li>
-            <li><Link href="">About</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-          </ul>
-        </div>
+        <ul>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="">Service</Link></li>
+          <li><Link href="">Product</Link></li>
+          <Image
+            src={'/alter-icon.png'}
+            width={isSticky ? 100 : 120}
+            height={0}
+            className={styles.logo}
+            alt="logo"
+          />
+          <li><Link href="">Gallery</Link></li>
+          <li><Link href="">About</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
+        </ul>
       </nav>
     </div>
   )
